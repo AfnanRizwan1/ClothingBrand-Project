@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Clothing Application - Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+    <div class="contain">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Screenshot_2023-12-05_232408-removebg.png" alt="Logo" width="150px">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="indexlogin.html">Categories</a></li>
+                    <li><a href="shope.html">Shopping Cart</a></li>
+                    <li><a href="payment.html">Payment</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="back">
+        <div class="shopping-cart-content">
+            <h1>Your Shopping Cart</h1>
+
+            <!-- Cart Items in a Flex Container -->
+            <div class="cart-items-container">
+
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <img src="men's jacket.jpg" alt="Product 1" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Stylish Men's Jacket</h3>
+                        <p>Size: M</p>
+                    </div>
+                    <div class="cart-quantity-amount">
+                        <p>Quantity:</p>
+                        <input type="number" class="quantity-input" value="1">
+                        <p>Price: $<span class="price">75.00</span></p>
+                        <!-- <p>Total Amount: $<span class="amount">75.00</span></p> -->
+                        <button class="remove-item">Remove</button>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <img src="Women's Dress.jpg" alt="Product 2" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Elegant Women's Dress</h3>
+                        <p>Size: S</p>
+                    </div>
+                    <div class="cart-quantity-amount">
+                        <p>Quantity:</p>
+                        <input type="number" class="quantity-input" value="2">
+                        <p>Price: $<span class="price">120.00</span></p>
+                        <!-- <p>Total Amount: $<span class="amount">240.00</span></p> -->
+                        <button class="remove-item">Remove</button>
+                    </div>
+                </div>
+
+                <!-- Cart Item 3 -->
+                <div class="cart-item">
+                    <img src="Cute_Kids_T-Shirt.jpg" alt="Product 3" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Cute Kids T-Shirt</h3>
+                        <p>Size: L</p>
+                    </div>
+                    <div class="cart-quantity-amount">
+                        <p>Quantity:</p>
+                        <input type="number" class="quantity-input" value="3">
+                        <p>Price: $<span class="price">30.00</span></p>
+                        <!-- <p>Total Amount: $<span class="amount">90.00</span></p> -->
+                        <button class="remove-item">Remove</button>
+                    </div>
+                </div>
+
+                <!-- Cart Item 4 -->
+                <div class="cart-item">
+                    <img src="Kids.jpg" alt="Product 4" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Summer Women's Hat</h3>
+                        <p>Size: One Size</p>
+                    </div>
+                    <div class="cart-quantity-amount">
+                        <p>Quantity:</p>
+                        <input type="number" class="quantity-input" value="1">
+                        <p>Price: $<span class="price">20.00</span></p>
+                        <!-- <p>Total Amount: $<span class="amount">20.00</span></p> -->
+                        <button class="remove-item">Remove</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Total Cost -->
+            <div class="total-cost">
+                <p>Total Cost: $<span class="total">425.00</span></p>
+            </div>
+
+            <!-- Cart Actions -->
+            <div class="cart-actions">
+                <button class="proceed-to-checkout">Proceed to Checkout</button>
+                <a href="#">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contain">
+            <div class="row">
+                <div class="col1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for Android and iOS mobile phones</p>
+                </div>
+                <div class="col2">
+                    <img src="Screenshot_2023-12-05_232408-removebg.png" alt="Logo" width="50px">
+                    <p>Our purpose is to serve people clothes of good fabric and quality</p>
+                </div>
+                <div class="col3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
